@@ -1,0 +1,27 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Buster Sword",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/buster_sword"
+        }
+      },
+      {
+        "when": "The Blade of Searing Flame",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pyra_aegis"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/mace"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "supported_formats": { "min_inclusive": 7, "max_inclusive": 88 },
+    "description": "Adds many items from other games! (1.17.1 - 1.21.1, CIT Resewn needed for custom textures to work)"
+  }
+}

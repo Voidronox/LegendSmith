@@ -1,0 +1,97 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Azurelight",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/azurelight"
+        }
+      },
+      {
+        "when": "Buster Sword",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/buster_sword"
+        }
+      },
+      {
+        "when": "Carver of Demons",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/demon_carver"
+        }
+      },
+      {
+        "when": "Nail of Dreams",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/dream_nail"
+        }
+      },
+      {
+        "when": "Needle of Fate",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/hornet_needle"
+        }
+      },
+      {
+        "when": "Masamune",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/masamune"
+        }
+      },
+      {
+        "when": "The Sword that Seals the Darkness",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/master_sword"
+        }
+      },
+      {
+        "when": "The Blade of Gleaming Light",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/mythra_aegis"
+        }
+      },
+      {
+        "when": "The Blade of Searing Flame",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pyra_aegis"
+        }
+      },
+      {
+        "when": "Vicious Sickle",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/vicious_sickle"
+        }
+      },
+      {
+        "when": "The Blade of Gilded Void",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/voidblade"
+        }
+      },
+      {
+        "when": "Blade of Gales",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/windcleaver"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/copper_sword"
+    }
+  }
+}
