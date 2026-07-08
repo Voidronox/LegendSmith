@@ -35,7 +35,7 @@ Please read the information below as they are vital info
 
 - Resource pack updates would be more delayed now due to busy schedule but will have (hopefully) more content in every release. Sorry for the inconvenience caused.
 
-- Sha1 for servers: bd639bb8916997b235174a9655fe6d3e6eb62629
+- Sha1 for servers: cf2fc04de1e7b0fb14b3e525ad35506514c33195
 
 # **Known Bugs**
 
