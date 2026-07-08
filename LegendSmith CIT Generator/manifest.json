@@ -1,0 +1,84 @@
+{
+  "_readme": "This is the single source of truth for LegendSmith's CIT weapons. Add/edit weapons here, then rerun generate_cit.py to rebuild the .properties files. Never hand-edit files inside the generated cit/items/weapons/<id>/ folders once you're using this — they get overwritten.",
+
+  "weapons": [
+    {
+      "id": "azurelight",
+      "name": "Azurelight",
+      "types": ["sword"],
+      "emissive": true
+    },
+    {
+      "id": "buster_sword",
+      "name": "Buster Sword",
+      "types": ["sword", "axe", "mace"],
+      "emissive": false
+    },
+    {
+      "id": "demon_carver",
+      "name": "Carver of Demons",
+      "types": ["sword", "axe"],
+      "emissive": false
+    },
+    {
+      "id": "dream_nail",
+      "name": "Nail of Dreams",
+      "types": ["sword"],
+      "emissive": false
+    },
+    {
+      "id": "hornet_needle",
+      "name": "Needle of Fate",
+      "types": ["sword", "spear"],
+      "emissive": false
+    },
+    {
+      "id": "masamune",
+      "name": "Masamune",
+      "types": ["sword", "axe"],
+      "emissive": false
+    },
+    {
+      "id": "master_sword",
+      "name": "The Sword that Seals the Darkness",
+      "types": ["sword"],
+      "emissive": true
+    },
+    {
+      "id": "mythra_aegis",
+      "name": "The Blade of Gleaming Light",
+      "types": ["sword"],
+      "emissive": true
+    },
+    {
+      "id": "pyra_aegis",
+      "name": "The Blade of Searing Flame",
+      "types": ["sword", "axe", "mace"],
+      "emissive": true
+    },
+    {
+      "id": "vicious_sickle",
+      "name": "Vicious Sickle",
+      "types": ["sword", "axe"],
+      "emissive": false
+    },
+    {
+      "id": "voidblade",
+      "name": "The Blade of Gilded Void",
+      "types": ["sword", "axe"],
+      "emissive": true
+    },
+    {
+      "id": "windcleaver",
+      "name": "Blade of Gales",
+      "types": ["sword", "axe"],
+      "emissive": true
+    },
+    {
+      "id": "glory_handcannon",
+      "name": "Magical Death Spit",
+      "types": ["bow", "crossbow"],
+      "emissive": false
+    }
+  ]
+}
