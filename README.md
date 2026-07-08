@@ -5,8 +5,6 @@ Download the resource pack [here](https://modrinth.com/resourcepack/void-legends
 
 Please read the information below as they are vital info
 
-# **Remember to follow the project to keep track of updates!**
-
 # **Current weapons** [Weapon Name - User (Name for model change)]
 - Master Sword - Link (The Sword that Seals the Darkness)
 - Masamune - Sephiroth (Masamune) ([M](https://modrinth.com/resourcepack/blades-of-majestica))
