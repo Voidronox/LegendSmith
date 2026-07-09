@@ -1,9 +1,8 @@
 Adds custom textures and models to items when they are renamed. (CIT Resewn / Optifine needed for custom models) Some models and textures are borrowed from [Blades of Majestica](https://modrinth.com/resourcepack/blades-of-majestica)
 
-# **Mod Page**
-Download the resource pack [here](https://modrinth.com/resourcepack/void-legendsmith)
-
 Please read the information below as they are vital info
+
+# **Remember to follow the project to keep track of updates!**
 
 # **Current weapons** [Weapon Name - User (Name for model change)]
 - Master Sword - Link (The Sword that Seals the Darkness)
@@ -19,6 +18,7 @@ Please read the information below as they are vital info
 - Voidblade - Custom (Blade of Gilded Void)
 - Glory Handcannon - Glory's Head from WoF (Magical Death Spit)
 - Azurelight - Skirk (Genshin Impact)
+- Staff of Voided Divination - Custom (Staff of Voided Divination)
 
 # **Note**
 - When renaming weapons, as long as the required name (e.g. Buster Sword) is included in the whole name, the change works. (e.g. VoidBuster Sword, My Needle of Fate, Needle of Dreams and stuff)
@@ -35,7 +35,7 @@ Please read the information below as they are vital info
 
 - Resource pack updates would be more delayed now due to busy schedule but will have (hopefully) more content in every release. Sorry for the inconvenience caused.
 
-- Sha1 for servers: cf2fc04de1e7b0fb14b3e525ad35506514c33195
+- Sha1 for servers: 9c7a7f2dfd787b30e7bc2cbed228c8400e62d423
 
 # **Known Bugs**
 
@@ -43,10 +43,8 @@ Please read the information below as they are vital info
 
 # **Upcoming! (Planned for next release)**
 - Shardsong (Custom)
-- Staff of Voided Divination (Custom)
 - Naginata of Voided Divination (Custom)
 - Greataxe of Voided Divination (Custom)
-- Custom Animations when holding custom weapons (Maybe it may not work)
 - Bedrock Port? (Would be additional weapons instead of renamed weapons)
 
 # **Dependencies**
