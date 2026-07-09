@@ -1,0 +1,27 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Magical Death Spit",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/glory_handcannon"
+        }
+      },
+      {
+        "when": "Staff of Voided Divination",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/staff_of_voided_divination"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/bow"
+    }
+  }
+}

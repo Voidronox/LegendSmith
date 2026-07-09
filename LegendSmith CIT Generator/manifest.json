@@ -79,6 +79,12 @@
       "name": "Magical Death Spit",
       "types": ["bow", "crossbow"],
       "emissive": false
+    },
+    {
+      "id": "staff_of_voided_divination",
+      "name": "Staff of Voided Divination",
+      "types": ["bow"],
+      "emissive": true
     }
   ]
 }
