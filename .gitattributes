@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+LegendSmith\ CIT\ Generator/ export-ignore
+Unfinished\ Models/ export-ignore
+TESTS/ export-ignore
