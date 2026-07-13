@@ -85,6 +85,18 @@
       "name": "Staff of Voided Divination",
       "types": ["bow"],
       "emissive": true
+    },
+    {
+      "id": "lightkeepers_oath",
+      "name": "Lightkeeper's Oath",
+      "types": ["totem_of_undying"],
+      "emissive": true
+    },
+    {
+      "id": "axe_of_voided_divination",
+      "name": "Axe of Voided Divination",
+      "types": ["sword", "axe", "mace"],
+      "emissive": true
     }
   ]
 }
