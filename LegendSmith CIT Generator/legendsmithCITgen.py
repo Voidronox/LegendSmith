@@ -86,6 +86,13 @@ ITEM_REGISTRY = {
     "crossbow": {
         None: LEGACY,
     },
+    # Totem of Undying has no material variants -- single item id
+    # "totem_of_undying" (not "totem"; the weapon "type" key IS the item id
+    # here since item_id() just returns weapon_type when material is None).
+    # Added in 1.11, long before components -- legacy-eligible.
+    "totem_of_undying": {
+        None: LEGACY,
+    },
 }
 
 
