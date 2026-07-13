@@ -54,18 +54,33 @@ def write_item_file(item_type, material, weapons, out_dir: Path):
     iid = item_id(item_type, material)
     cases = build_cases(weapons, item_type)
 
-    data = {
-        "model": {
-            "type": "minecraft:select",
-            "property": "minecraft:component",
-            "component": "minecraft:custom_name",
-            "cases": cases,
-            "fallback": {
+    if cases:
+        # At least one weapon targets this material/type -- safe to use
+        # the "select" dispatcher.
+        data = {
+            "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:custom_name",
+                "cases": cases,
+                "fallback": {
+                    "type": "minecraft:model",
+                    "model": f"minecraft:item/{iid}"
+                }
+            }
+        }
+    else:
+        # No weapons target this material/type yet. "minecraft:select"
+        # requires a non-empty "cases" array -- an empty one fails to
+        # parse entirely (not just falls back), which breaks the vanilla
+        # item outright. Emit the plain vanilla model instead until a
+        # weapon actually claims this slot.
+        data = {
+            "model": {
                 "type": "minecraft:model",
                 "model": f"minecraft:item/{iid}"
             }
         }
-    }
 
     out_dir.mkdir(parents=True, exist_ok=True)
     out_path = out_dir / f"{iid}.json"
