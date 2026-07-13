@@ -5,16 +5,16 @@
     "component": "minecraft:custom_name",
     "cases": [
       {
-        "when": "Magical Death Spit",
+        "when": "Lightkeeper's Oath",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/glory_handcannon"
+          "model": "minecraft:item/lightkeepers_oath"
         }
       }
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/crossbow"
+      "model": "minecraft:item/totem_of_undying"
     }
   }
 }

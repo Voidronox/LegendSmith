@@ -52,6 +52,13 @@
           "type": "minecraft:model",
           "model": "minecraft:item/windcleaver"
         }
+      },
+      {
+        "when": "Axe of Voided Divination",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/axe_of_voided_divination"
+        }
       }
     ],
     "fallback": {
