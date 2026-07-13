@@ -1,0 +1,4 @@
+Instructions:
+- Only for collaborators who make 3d models
+
+Put unfinished models here so that it can be transfered across users and computers to continue progress
