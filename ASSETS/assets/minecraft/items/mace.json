@@ -8,21 +8,21 @@
         "when": "Buster Sword",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/buster_sword"
+          "model": "minecraft:item/legendsmith/buster_sword/buster_sword"
         }
       },
       {
         "when": "The Blade of Searing Flame",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/pyra_aegis"
+          "model": "minecraft:item/legendsmith/pyra_aegis/pyra_aegis"
         }
       },
       {
         "when": "Axe of Voided Divination",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/axe_of_voided_divination"
+          "model": "minecraft:item/legendsmith/axe_of_voided_divination/axe_of_voided_divination"
         }
       }
     ],

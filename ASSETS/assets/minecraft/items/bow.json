@@ -8,14 +8,14 @@
         "when": "Magical Death Spit",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/glory_handcannon"
+          "model": "minecraft:item/legendsmith/glory_handcannon/glory_handcannon"
         }
       },
       {
         "when": "Staff of Voided Divination",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/staff_of_voided_divination"
+          "model": "minecraft:item/legendsmith/staff_of_voided_divination/staff_of_voided_divination"
         }
       }
     ],

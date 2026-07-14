@@ -8,7 +8,7 @@
         "when": "Needle of Fate",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/hornet_needle"
+          "model": "minecraft:item/legendsmith/hornet_needle/hornet_needle"
         }
       }
     ],

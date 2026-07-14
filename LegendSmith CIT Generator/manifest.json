@@ -78,19 +78,22 @@
       "id": "glory_handcannon",
       "name": "Magical Death Spit",
       "types": ["bow", "crossbow"],
-      "emissive": false
+      "emissive": false,
+      "category": "bows"
     },
     {
       "id": "staff_of_voided_divination",
       "name": "Staff of Voided Divination",
       "types": ["bow"],
-      "emissive": true
+      "emissive": true,
+      "category": "bows"
     },
     {
       "id": "lightkeepers_oath",
       "name": "Lightkeeper's Oath",
       "types": ["totem_of_undying"],
-      "emissive": true
+      "emissive": true,
+      "category": "utilities"
     },
     {
       "id": "axe_of_voided_divination",

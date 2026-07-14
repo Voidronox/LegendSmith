@@ -8,7 +8,7 @@
         "when": "Lightkeeper's Oath",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/lightkeepers_oath"
+          "model": "minecraft:item/legendsmith/lightkeepers_oath/lightkeepers_oath"
         }
       }
     ],
