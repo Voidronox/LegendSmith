@@ -46,7 +46,6 @@ Please read the information below as they are vital info
 # **Upcoming! (Planned for next release)**
 - Shardsong (Custom)
 - Naginata of Voided Divination (Custom)
-- Greataxe of Voided Divination (Custom)
 - Bedrock Port? (Would be additional weapons instead of renamed weapons)
 
 # **Dependencies**
