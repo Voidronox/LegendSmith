@@ -19,6 +19,8 @@ Please read the information below as they are vital info
 - Glory Handcannon - Glory's Head from WoF (Magical Death Spit)
 - Azurelight - Skirk (Genshin Impact)
 - Staff of Voided Divination - Custom (Staff of Voided Divination)
+- Flins' Lantern - Flins (Lightkeeper's Oath)
+- Axe of Voided Divination - Custom (Axe of Voided Divination)
 
 # **Note**
 - When renaming weapons, as long as the required name (e.g. Buster Sword) is included in the whole name, the change works. (e.g. VoidBuster Sword, My Needle of Fate, Needle of Dreams and stuff)
@@ -35,7 +37,7 @@ Please read the information below as they are vital info
 
 - Resource pack updates would be more delayed now due to busy schedule but will have (hopefully) more content in every release. Sorry for the inconvenience caused.
 
-- Sha1 for servers: 9c7a7f2dfd787b30e7bc2cbed228c8400e62d423
+- Sha1 for servers: b159bd3d4936481c8de0321ee041d805bad1929d
 
 # **Known Bugs**
 
@@ -44,7 +46,6 @@ Please read the information below as they are vital info
 # **Upcoming! (Planned for next release)**
 - Shardsong (Custom)
 - Naginata of Voided Divination (Custom)
-- Greataxe of Voided Divination (Custom)
 - Bedrock Port? (Would be additional weapons instead of renamed weapons)
 
 # **Dependencies**
