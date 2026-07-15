@@ -19,12 +19,15 @@ these output files directly.
 By default, each case's "model" field points at "minecraft:item/<weapon_id>",
 matching a flat assets/minecraft/models/item/<weapon_id>.json layout. Pass
 --namespace-subfolder (e.g. "legendsmith") to nest the reference under
-"minecraft:item/<subfolder>/<weapon_id>" instead -- this MUST match whatever
---namespace-subfolder value you pass to legendsmithCITgen-v3.py, or the
-model reference and the actual model file location will disagree and you'll
-get the missing-texture checkerboard again. The assets/minecraft/items/
-override files themselves always stay at their fixed vanilla-required path
-regardless of this setting -- only the internal "model" reference nests.
+"minecraft:item/<subfolder>/<category>/<weapon_id>/<weapon_id>" instead --
+<category> is each weapon's manifest "category" field (defaults to
+"weapons"), matching legendsmithCITgen-v3.py's own output layout one-to-one.
+This MUST match whatever --namespace-subfolder value you pass to
+legendsmithCITgen-v3.py, or the model reference and the actual model file
+location will disagree and you'll get the missing-texture checkerboard
+again. The assets/minecraft/items/ override files themselves always stay at
+their fixed vanilla-required path regardless of this setting -- only the
+internal "model" reference nests.
 
 Usage:
     python legendsmithCITgen-v2.py
@@ -52,9 +55,11 @@ def build_cases(weapons, item_type, subfolder):
         if is_placeholder(name):
             continue
         wid = weapon["id"]
+        category = weapon.get("category", "weapons")
         # Mirrors legendsmithCITgen-v3.py's output layout: each weapon gets
-        # its own folder under the subfolder, matching cit/items/weapons/<id>/<id>.json.
-        rel = f"{subfolder}/{wid}/{wid}" if subfolder else wid
+        # its own folder nested under its category, matching
+        # cit/items/<category>/<id>/<id>.json.
+        rel = f"{subfolder}/{category}/{wid}/{wid}" if subfolder else wid
         cases.append({
             "when": name,
             "model": {

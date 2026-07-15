@@ -8,91 +8,91 @@
         "when": "Azurelight",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/legendsmith/azurelight/azurelight"
+          "model": "minecraft:item/legendsmith/weapons/azurelight/azurelight"
         }
       },
       {
         "when": "Buster Sword",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/legendsmith/buster_sword/buster_sword"
+          "model": "minecraft:item/legendsmith/weapons/buster_sword/buster_sword"
         }
       },
       {
         "when": "Carver of Demons",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/legendsmith/demon_carver/demon_carver"
+          "model": "minecraft:item/legendsmith/weapons/demon_carver/demon_carver"
         }
       },
       {
         "when": "Nail of Dreams",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/legendsmith/dream_nail/dream_nail"
+          "model": "minecraft:item/legendsmith/weapons/dream_nail/dream_nail"
         }
       },
       {
         "when": "Needle of Fate",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/legendsmith/hornet_needle/hornet_needle"
+          "model": "minecraft:item/legendsmith/weapons/hornet_needle/hornet_needle"
         }
       },
       {
         "when": "Masamune",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/legendsmith/masamune/masamune"
+          "model": "minecraft:item/legendsmith/weapons/masamune/masamune"
         }
       },
       {
         "when": "The Sword that Seals the Darkness",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/legendsmith/master_sword/master_sword"
+          "model": "minecraft:item/legendsmith/weapons/master_sword/master_sword"
         }
       },
       {
         "when": "The Blade of Gleaming Light",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/legendsmith/mythra_aegis/mythra_aegis"
+          "model": "minecraft:item/legendsmith/weapons/mythra_aegis/mythra_aegis"
         }
       },
       {
         "when": "The Blade of Searing Flame",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/legendsmith/pyra_aegis/pyra_aegis"
+          "model": "minecraft:item/legendsmith/weapons/pyra_aegis/pyra_aegis"
         }
       },
       {
         "when": "Vicious Sickle",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/legendsmith/vicious_sickle/vicious_sickle"
+          "model": "minecraft:item/legendsmith/weapons/vicious_sickle/vicious_sickle"
         }
       },
       {
         "when": "The Blade of Gilded Void",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/legendsmith/voidblade/voidblade"
+          "model": "minecraft:item/legendsmith/weapons/voidblade/voidblade"
         }
       },
       {
         "when": "Blade of Gales",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/legendsmith/windcleaver/windcleaver"
+          "model": "minecraft:item/legendsmith/weapons/windcleaver/windcleaver"
         }
       },
       {
         "when": "Axe of Voided Divination",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/legendsmith/axe_of_voided_divination/axe_of_voided_divination"
+          "model": "minecraft:item/legendsmith/weapons/axe_of_voided_divination/axe_of_voided_divination"
         }
       }
     ],
