@@ -37,7 +37,7 @@ Please read the information below as they are vital info
 
 - Resource pack updates would be more delayed now due to busy schedule but will have (hopefully) more content in every release. Sorry for the inconvenience caused.
 
-- Sha1 for servers: b159bd3d4936481c8de0321ee041d805bad1929d
+- Sha1 for servers: 29c66ff2aaf52ddcc18ea6531a2d467e6a946215
 
 # **Known Bugs**
 
@@ -57,7 +57,7 @@ OR
 
 OR
 
-- 1.21.10+ use [CIT Resewn Continuation](https://modrinth.com/mod/cit-resewn-continuation)
+- 1.21.5+ **DO NOT NEED CIT RESEWN ANYMORE**
 
 # **For NeoForge and Forge users**
 
@@ -65,7 +65,7 @@ OR
 - Install [Sinytra Connector](https://modrinth.com/mod/connector)
 - Install [Forgified Fabric API](https://modrinth.com/mod/forgified-fabric-api)
 - Install [CITResewnNeoPatcher](https://modrinth.com/mod/cit-resewn-neopatcher)
-- Install [CIT Resewn](https://modrinth.com/mod/cit-resewn) / [CIT Resewn Continuation](https://modrinth.com/mod/cit-resewn-continuation)
+- Install [CIT Resewn](https://modrinth.com/mod/cit-resewn)
 - You should be able to use this and other CIT packs once these 4 mods has been installed
 
 **Forge:**
